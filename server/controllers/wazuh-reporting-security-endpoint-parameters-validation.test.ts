@@ -158,7 +158,7 @@ describe('[endpoint][security] POST /reports/modules/{moduleID} - Parameters val
         },
         tables: [],
         section: 'overview',
-        indexPatternTitle: 'wazuh-alerts-*',
+        indexPatternTitle: 'ams-alerts-*',
         apiId: 'default'
       })
       .expect(responseStatusCode);
@@ -223,7 +223,7 @@ describe('[endpoint][security] POST /reports/agents/{agentID} - Parameters valid
         },
         tables: [],
         section: 'overview',
-        indexPatternTitle: 'wazuh-alerts-*',
+        indexPatternTitle: 'ams-alerts-*',
         apiId: 'default'
       })
       .expect(responseStatusCode);

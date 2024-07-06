@@ -58,7 +58,7 @@ jest.mock('../../lib/logger', () => ({
 }));
 
 jest.mock('../../lib/get-configuration', () => ({
-    getConfiguration: () => ({pattern: 'wazuh-alerts-*'})
+    getConfiguration: () => ({pattern: 'ams-alerts-*'})
 }));
 
 beforeAll(() => {

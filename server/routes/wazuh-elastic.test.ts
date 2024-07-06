@@ -58,7 +58,7 @@ describe.skip('Wazuh Elastic', () => {
 
   describe('Wazuh API - /elastic/template/{pattern}', () => {
     test('[200] Check if there is some template with the pattern', () => {
-      const options = buildAxiosOptions('get', '/elastic/template/wazuh-alerts-*');
+      const options = buildAxiosOptions('get', '/elastic/template/ams-alerts-*');
       return axios(options).then((response) => {
         expect(response.status).toBe(200);
         expect(typeof response.data.status).toBe('boolean');
@@ -69,7 +69,7 @@ describe.skip('Wazuh Elastic', () => {
 
   describe('Wazuh API - /elastic/index-patterns/{pattern}', () => {
     test('[200] Check if there an index pattern with the pattern', () => {
-      const options = buildAxiosOptions('get', '/elastic/index-patterns/wazuh-alerts-*');
+      const options = buildAxiosOptions('get', '/elastic/index-patterns/ams-alerts-*');
       return axios(options).then((response) => {
         expect(response.status).toBe(200);
         expect(typeof response.data.status).toBe('boolean');

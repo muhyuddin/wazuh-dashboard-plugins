@@ -8,9 +8,9 @@ let urlsList = [
   'https://localhost:5601/elastic/samplealerts/threat-detection',
 ];
 let urlBodys = [
-  { alertCount: 27000, index: 'wazuh-alerts-4.x-sample-security' },
-  { alertCount: 12000, index: 'wazuh-alerts-4.x-sample-auditing-policy-monitoring' },
-  { alertCount: 15000, index: 'wazuh-alerts-4.x-sample-threat-detection' },
+  { alertCount: 27000, index: 'ams-alerts-4.x-sample-security' },
+  { alertCount: 12000, index: 'ams-alerts-4.x-sample-auditing-policy-monitoring' },
+  { alertCount: 15000, index: 'ams-alerts-4.x-sample-threat-detection' },
 ];
 
 Given('The wazuh admin user is logged', () => {

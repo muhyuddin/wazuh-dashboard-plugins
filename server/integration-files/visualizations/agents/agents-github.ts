@@ -146,7 +146,7 @@ export default [
       description: '',
       version: 1,
       kibanaSavedObjectMeta: {
-        searchSourceJSON: '{"index":"wazuh-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
+        searchSourceJSON: '{"index":"ams-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
       }
     },
     _type: 'visualization',
@@ -201,7 +201,7 @@ export default [
       description: '',
       version: 1,
       kibanaSavedObjectMeta: {
-        searchSourceJSON: '{"index":"wazuh-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
+        searchSourceJSON: '{"index":"ams-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
       }
     },
     _type: 'visualization',
@@ -335,7 +335,7 @@ export default [
       description: '',
       version: 1,
       kibanaSavedObjectMeta: {
-        searchSourceJSON: '{"index":"wazuh-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
+        searchSourceJSON: '{"index":"ams-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
       }
     },
     _type: 'visualization',
@@ -406,7 +406,7 @@ export default [
       description: '',
       version: 1,
       kibanaSavedObjectMeta: {
-        searchSourceJSON: '{"index":"wazuh-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
+        searchSourceJSON: '{"index":"ams-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
       }
     },
     _type: 'visualization',
@@ -494,7 +494,7 @@ export default [
       description: '',
       version: 1,
       kibanaSavedObjectMeta: {
-        searchSourceJSON: '{"index":"wazuh-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
+        searchSourceJSON: '{"index":"ams-alerts","filter":[],"query":{"query":"","language":"lucene"}}',
       }
     },
     _type: 'visualization',

@@ -46,7 +46,7 @@ describe('[service] get-configuration', () => {
     - password: custompassword
     - run_as: false
 `,
-`pattern: wazuh-alerts-*
+`pattern: ams-alerts-*
 hosts:
   - default:
     - url: http://wazuh.manager

@@ -20,13 +20,13 @@ export const PLUGIN_VERSION_SHORT = version.split('.').splice(0, 2).join('.');
 
 // Index patterns - Wazuh alerts
 export const WAZUH_INDEX_TYPE_ALERTS = 'alerts';
-export const WAZUH_ALERTS_PREFIX = 'wazuh-alerts-';
-export const WAZUH_ALERTS_PATTERN = 'wazuh-alerts-*';
+export const WAZUH_ALERTS_PREFIX = 'ams-alerts-';
+export const WAZUH_ALERTS_PATTERN = 'ams-alerts-*';
 
 // Job - Wazuh monitoring
 export const WAZUH_INDEX_TYPE_MONITORING = "monitoring";
-export const WAZUH_MONITORING_PREFIX = "wazuh-monitoring-";
-export const WAZUH_MONITORING_PATTERN = "wazuh-monitoring-*";
+export const WAZUH_MONITORING_PREFIX = "ams-monitoring-";
+export const WAZUH_MONITORING_PATTERN = "ams-monitoring-*";
 export const WAZUH_MONITORING_TEMPLATE_NAME = "wazuh-agent";
 export const WAZUH_MONITORING_DEFAULT_INDICES_SHARDS = 1;
 export const WAZUH_MONITORING_DEFAULT_INDICES_REPLICAS = 0;
@@ -37,7 +37,7 @@ export const WAZUH_MONITORING_DEFAULT_CRON_FREQ = '0 * * * * *';
 
 // Job - Wazuh statistics
 export const WAZUH_INDEX_TYPE_STATISTICS = "statistics";
-export const WAZUH_STATISTICS_DEFAULT_PREFIX = "wazuh";
+export const WAZUH_STATISTICS_DEFAULT_PREFIX = "ams";
 export const WAZUH_STATISTICS_DEFAULT_NAME = "statistics";
 export const WAZUH_STATISTICS_PATTERN = `${WAZUH_STATISTICS_DEFAULT_PREFIX}-${WAZUH_STATISTICS_DEFAULT_NAME}-*`;
 export const WAZUH_STATISTICS_TEMPLATE_NAME = `${WAZUH_STATISTICS_DEFAULT_PREFIX}-${WAZUH_STATISTICS_DEFAULT_NAME}`;
@@ -56,7 +56,7 @@ export const WAZUH_ROLE_ADMINISTRATOR_ID = 1;
 export const WAZUH_ROLE_ADMINISTRATOR_NAME = 'administrator';
 
 // Sample data
-export const WAZUH_SAMPLE_ALERT_PREFIX = 'wazuh-alerts-4.x-';
+export const WAZUH_SAMPLE_ALERT_PREFIX = 'ams-alerts-4.x-';
 export const WAZUH_SAMPLE_ALERTS_INDEX_SHARDS = 1;
 export const WAZUH_SAMPLE_ALERTS_INDEX_REPLICAS = 0;
 export const WAZUH_SAMPLE_ALERTS_CATEGORY_SECURITY = 'security';

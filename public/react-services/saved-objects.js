@@ -231,7 +231,7 @@ export class SavedObject {
   }
 
   /**
-   * Creates the 'wazuh-alerts-*'  index pattern
+   * Creates the 'ams-alerts-*'  index pattern
    */
   static async createWazuhIndexPattern(pattern) {
     try {

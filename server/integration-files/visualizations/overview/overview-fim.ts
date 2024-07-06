@@ -85,7 +85,7 @@ export default [
       version: 1,
       kibanaSavedObjectMeta: {
         searchSourceJSON: JSON.stringify({
-          index: 'wazuh-alerts',
+          index: 'ams-alerts',
           query: { query: '', language: 'lucene' },
           filter: [],
         }),
@@ -139,7 +139,7 @@ export default [
       version: 1,
       kibanaSavedObjectMeta: {
         searchSourceJSON: JSON.stringify({
-          index: 'wazuh-alerts',
+          index: 'ams-alerts',
           query: { query: '', language: 'lucene' },
           filter: [],
         }),
@@ -187,7 +187,7 @@ export default [
       version: 1,
       kibanaSavedObjectMeta: {
         searchSourceJSON: JSON.stringify({
-          index: 'wazuh-alerts',
+          index: 'ams-alerts',
           query: { language: 'lucene', query: '' },
           filter: [],
         }),
@@ -235,7 +235,7 @@ export default [
       version: 1,
       kibanaSavedObjectMeta: {
         searchSourceJSON: JSON.stringify({
-          index: 'wazuh-alerts',
+          index: 'ams-alerts',
           query: { language: 'lucene', query: '' },
           filter: [],
         }),
@@ -337,7 +337,7 @@ export default [
       version: 1,
       kibanaSavedObjectMeta: {
         searchSourceJSON: JSON.stringify({
-          index: 'wazuh-alerts',
+          index: 'ams-alerts',
           filter: [],
           query: { query: '', language: 'lucene' },
         }),
@@ -424,12 +424,12 @@ export default [
       version: 1,
       kibanaSavedObjectMeta: {
         searchSourceJSON: JSON.stringify({
-          index: 'wazuh-alerts',
+          index: 'ams-alerts',
           query: { query: '', language: 'lucene' },
           filter: [
             {
               meta: {
-                index: 'wazuh-alerts',
+                index: 'ams-alerts',
                 negate: false,
                 disabled: false,
                 alias: null,
@@ -525,7 +525,7 @@ export default [
       version: 1,
       kibanaSavedObjectMeta: {
         searchSourceJSON: JSON.stringify({
-          index: 'wazuh-alerts',
+          index: 'ams-alerts',
           filter: [],
           query: { query: '', language: 'lucene' },
         }),

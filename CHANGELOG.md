@@ -887,7 +887,7 @@ All notable changes to the Wazuh app project will be documented in this file.
 - Undefined field in event view [#2588](https://github.com/wazuh/wazuh-kibana-app/issues/2588)
 - Several calls to the same stats request (esAlerts) [#2586](https://github.com/wazuh/wazuh-kibana-app/issues/2586)
 - The filter options popup doesn't open on click once the filter is pinned [#2581](https://github.com/wazuh/wazuh-kibana-app/issues/2581)
-- The formatedFields are missing from the index-pattern of wazuh-alerts-\* [#2574](https://github.com/wazuh/wazuh-kibana-app/issues/2574)
+- The formatedFields are missing from the index-pattern of ams-alerts-\* [#2574](https://github.com/wazuh/wazuh-kibana-app/issues/2574)
 
 ## Wazuh v4.0.0 - Kibana v7.9.3 - Revision 4005
 
@@ -910,7 +910,7 @@ All notable changes to the Wazuh app project will be documented in this file.
 
 ### Changed
 
-- Migrated the default index-pattern to `wazuh-alerts-*`.
+- Migrated the default index-pattern to `ams-alerts-*`.
 - Removed the `known-fields` functionality.
 - Security Events dashboard redesinged.
 - Redesigned the app settings configuration with categories.
@@ -918,7 +918,7 @@ All notable changes to the Wazuh app project will be documented in this file.
 
 ### Fixed
 
-- Format options in `wazuh-alerts` index-pattern are not overwritten now.
+- Format options in `ams-alerts` index-pattern are not overwritten now.
 - Prevent blank page in detaill agent view.
 - Navigable agents name in Events.
 - Index pattern is not being refreshed.

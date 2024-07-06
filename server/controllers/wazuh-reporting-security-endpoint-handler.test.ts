@@ -171,7 +171,7 @@ describe('[security] POST /reports', () => {
         },
         tables: [],
         section: 'overview',
-        indexPatternTitle: 'wazuh-alerts-*',
+        indexPatternTitle: 'ams-alerts-*',
         apiId: 'default',
         tab: moduleID
       },
